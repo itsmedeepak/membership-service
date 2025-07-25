@@ -1,4 +1,4 @@
-# FirstClub Membership Program
+# Membership Service
 
 This is the backend system for the FirstClub Membership Program, a subscription-based platform offering tiered benefits to users.
 
@@ -8,6 +8,7 @@ This is the backend system for the FirstClub Membership Program, a subscription-
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
+  - [Download Postman Collection](/postman-api-collections.postman_collection)
   - [User Endpoints](#user-endpoints)
   - [Membership Plan Endpoints](#membership-plan-endpoints)
   - [Membership Subscription Endpoints](#membership-subscription-endpoints)
@@ -36,6 +37,7 @@ This project is a Spring Boot application that provides the backend services for
 ---
 
 ## Project Structure
+<img width="293" height="793" alt="image" src="https://github.com/user-attachments/assets/f63a84d8-a923-4944-9002-cba5361d8acd" />
 
 The project follows a standard layered architecture:
 
@@ -51,6 +53,8 @@ The project follows a standard layered architecture:
 ## API Endpoints
 
 ### User Endpoints
+<img width="239" height="493" alt="image" src="https://github.com/user-attachments/assets/2aa2645c-cafb-4495-8a2b-ea470059ece7" />
+
 
 **Base Path**: `/api/v1/users`
 
@@ -61,6 +65,8 @@ The project follows a standard layered architecture:
 | `GET` | `/` | Retrieves a list of all users. |
 | `PUT` | `/{userId}` | Updates an existing user's information. |
 | `DELETE` | `/{userId}` | Deletes a user by their ID. |
+
+<img width="1260" height="606" alt="image" src="https://github.com/user-attachments/assets/d77186d7-7bf3-4d9a-ba29-a0e6cba0caa7" />
 
 ### Membership Plan Endpoints
 
@@ -73,6 +79,8 @@ The project follows a standard layered architecture:
 | `GET` | `/` | Retrieves a list of all membership plans. |
 | `PUT` | `/{planId}` | Updates an existing membership plan. |
 | `DELETE` | `/{planId}` | Deletes a membership plan by its ID. |
+<img width="931" height="303" alt="image" src="https://github.com/user-attachments/assets/a5c0ce01-365b-403e-b6e6-2b93f581df61" />
+<img width="1260" height="582" alt="image" src="https://github.com/user-attachments/assets/b7ae2e2e-5c25-4c40-9a0b-d1fd5b9b3820" />
 
 ### Membership Subscription Endpoints
 
@@ -85,6 +93,12 @@ The project follows a standard layered architecture:
 | `GET` | `/user/{userId}` | Retrieves the active membership for a user. |
 | `PUT` | `/user/{userId}/change-plan` | Changes the membership plan for a user. |
 | `DELETE` | `/user/{userId}/cancel` | Cancels a user's membership subscription. |
+
+
+<img width="913" height="603" alt="image" src="https://github.com/user-attachments/assets/cf139486-cc4e-4826-94ee-58f3b04edaba" />
+<img width="1075" height="601" alt="image" src="https://github.com/user-attachments/assets/0daeec3b-4b95-4770-9e97-ff8aed3449d7" />
+<img width="950" height="610" alt="image" src="https://github.com/user-attachments/assets/6db4eeef-f19f-472f-b393-90bc52146597" />
+
 
 ---
 
