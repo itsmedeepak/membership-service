@@ -25,6 +25,7 @@ public class MembershipPlan {
 	private int extraDiscount;
 	private boolean exclusiveDeals;
 	private boolean prioritySupport;
+	
 
 	public MembershipPlan() {
 
